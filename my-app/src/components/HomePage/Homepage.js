@@ -7,6 +7,8 @@ import SliderBox from "./Slider";
 import ImageSlider from "./ImageSlider";
 import { SliderData, slideImageData } from "./SliderData";
 import SlideShow from "./SlideshowOne";
+import styled, { keyframes } from "styled-components";
+import { rollIn } from "react-animations";
 
 const Homepage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -38,6 +40,15 @@ const Homepage = () => {
     }
     return () => clearInterval(slideInterval);
   }, [currentSlide]);
+
+  const animationType = rollIn;
+
+  const animation = keyframes`${animationType}`;
+
+  const AnimationDiv = styled.div`
+    animation: 1s ${animation};
+    margin-top: 30px;
+  `;
 
   return (
     <>
@@ -304,9 +315,9 @@ const Homepage = () => {
           </p>
           <button className={Styles.learnmore}>Learn more</button>
         </div>
-        <div className={Styles.dietplanimg}>
+        <AnimationDiv>
           <img src="https://www.fitmeals.co.in/wp-content/uploads/2019/02/dish_07-1-360x360-1.jpg" />
-        </div>
+        </AnimationDiv>
       </div>
       <p className={Styles.para} style={{ color: "#292d35" }}>
         Client Diaries
