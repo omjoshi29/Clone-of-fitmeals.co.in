@@ -1,70 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Clone of fitmeals.co.in
 
-## Available Scripts
+This project is a clone of fitmeals.co.in, which is a is a website to buy meal plans and health coaching. This is a collaborative project, completed within 5 days with a team of 6 members, as a part of 'Construct-week' project at Masai School. This website have end to end functionalities from SignUp/LogIn to buying products to making payment.
 
-In the project directory, you can run:
 
-### `npm start`
+## Deployed link
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://flourishing-brigadeiros-066ec5.netlify.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Authors
 
-### `npm test`
+* Arfeen Mushtaque (https://github.com/Arfeen98)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Omkar Joshi (https://github.com/omjoshi29)
 
-### `npm run build`
+* Bhushan Badgujar (https://github.com/BBHUSHAN98)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Prathmesh Nerle (https://github.com/Prathmesh112000)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Pratik Ganjale (https://github.com/pratikganjale55)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Tabrez Alam (https://github.com/TabrezAlam98)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Sign-up / Log-in / User-Authentication 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Sort products by prices
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Add products to the cart, increase the quantity of products, delete products from the cart and pay via card 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Language
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* React
+* CSS
+* Redux
+* Bootstrap
 
-### Code Splitting
+<!-- ## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot (403)](https://user-images.githubusercontent.com/99397606/155881916-0d3bdd79-d313-4791-8035-ad37e00f0605.png)
+![Screenshot (404)](https://user-images.githubusercontent.com/99397606/155881973-f5a33c86-d364-4e2c-8aea-d4816da1e9a0.png)
+![Screenshot (405)](https://user-images.githubusercontent.com/99397606/155881929-17733164-61d2-456b-a485-5a778ccd31c0.png)
+![Screenshot (406)](https://user-images.githubusercontent.com/99397606/155881934-97c564f3-9537-42c3-91c3-7138d2bf548d.png) -->
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Reference
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* fitmeals.co.in
