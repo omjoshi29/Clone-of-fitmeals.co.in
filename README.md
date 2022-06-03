@@ -1,7 +1,7 @@
 
 # Clone of fitmeals.co.in
 
-This project is a clone of fitmeals.co.in, which is a is a website to buy meal plans and health coaching. This is a collaborative project, completed within 5 days with a team of 6 members, as a part of 'Construct-week' project at Masai School. This website have end to end functionalities from SignUp/LogIn to buying products to making payment.
+This project is a clone of fitmeals.co.in, which is a is a website to buy meal plans and health coaching. This is a collaborative project, completed within 5 days with a team of 6 members, as a part of 'Construct-week' project at Masai School. This website has end to end functionalities from SignUp/LogIn to buying products to making payment.
 
 
 ## Deployed link
