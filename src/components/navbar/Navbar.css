@@ -161,6 +161,7 @@
 }
 .dropdown-content a:hover {
   background-color: #8ae237;
+  color: white;
 }
 
 /* Slider Bar CSS */

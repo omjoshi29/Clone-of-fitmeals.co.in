@@ -9,10 +9,12 @@ import { SliderData, slideImageData } from "./SliderData";
 import SlideShow from "./SlideshowOne";
 import styled, { keyframes } from "styled-components";
 import { rollIn } from "react-animations";
+import { useNavigate } from "react-router-dom";
 
 const Homepage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideLength = SliderData.length;
+  const navigate = useNavigate();
 
   const nextSlide = () => {
     setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
@@ -131,7 +133,9 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      <button className={Styles.readmore}>Read more</button>
+      <button className={Styles.readmore} onClick={() => navigate("/health")}>
+        Read more
+      </button>
       <div className={Styles.gray}>
         <div className={Styles.div3}>
           <p className={Styles.homepageparagraph}>Our benefits</p>
@@ -210,10 +214,30 @@ const Homepage = () => {
             </h1>
 
             <div className={Styles.buttonDiv}>
-              <button className={Styles.bttns}>Weight Loss Meal Plan</button>
-              <button className={Styles.bttns}> Athletic Meal Plan</button>
-              <button className={Styles.bttns}>Maintenance Meal Plan</button>
-              <button className={Styles.bttns}>Keto Meal Plan</button>
+              <button
+                className={Styles.bttns}
+                onClick={() => navigate("/weightmealplans")}
+              >
+                Weight Loss Meal Plan
+              </button>
+              <button
+                className={Styles.bttns}
+                onClick={() => navigate("/athletic")}
+              >
+                Athletic Meal Plan
+              </button>
+              <button
+                className={Styles.bttns}
+                onClick={() => navigate("/maintenance")}
+              >
+                Maintenance Meal Plan
+              </button>
+              <button
+                className={Styles.bttns}
+                onClick={() => navigate("/keto")}
+              >
+                Keto Meal Plan
+              </button>
             </div>
 
             <div className={Styles.innerGreenDiv2}>
@@ -260,7 +284,12 @@ const Homepage = () => {
                   vegetables which add all the essential vitamins, minerals and
                   fibre to your diet.
                 </p>
-                <button className={Styles.viewPlanBttn}>View plan</button>
+                <button
+                  className={Styles.viewPlanBttn}
+                  onClick={() => navigate("/weightmealplans")}
+                >
+                  View plan
+                </button>
               </div>
             </div>
           </div>
@@ -276,7 +305,12 @@ const Homepage = () => {
                 Get our &nbsp;
                 <span style={{ color: "#8ec038" }}>1 week trial plan</span>
               </h1>
-              <button className={Styles.orderbttn}>Order now</button>
+              <button
+                className={Styles.orderbttn}
+                onClick={() => navigate("/products")}
+              >
+                Order now
+              </button>
             </div>
           </div>
 
@@ -313,7 +347,12 @@ const Homepage = () => {
             distinctively. Just give us your details and goals and we’ll do all
             the meal planning for you!
           </p>
-          <button className={Styles.learnmore}>Learn more</button>
+          <button
+            className={Styles.learnmore}
+            onClick={() => navigate("/products")}
+          >
+            Learn more
+          </button>
         </div>
         <AnimationDiv>
           <img src="https://www.fitmeals.co.in/wp-content/uploads/2019/02/dish_07-1-360x360-1.jpg" />

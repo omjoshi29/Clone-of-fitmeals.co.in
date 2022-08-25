@@ -55,11 +55,11 @@ const Footer = () => {
             <h3 className="h3tag1">Explore</h3>
             <div className="explore">
               <h3 className="h3tag2">></h3>
-              <a href="https://www.fitmeals.co.in/">Home</a>
+              <a href="/">Home</a>
             </div>
             <div className="explore1">
               <h3 className="h3tag2">></h3>
-              <a href="https://www.fitmeals.co.in/product-category/meal-plans/">
+              <a href="#">
                 Meal Plans
               </a>
             </div>
@@ -69,19 +69,19 @@ const Footer = () => {
             <h3 className="h3tag3">Links</h3>
             <div className="link1">
               <h3 className="Footerh3tag4">></h3>
-              <a href="https://www.fitmeals.co.in/about-us/">About Us</a>
+              <a href="#">About Us</a>
             </div>
             <div className="link2">
               <h3 className="Footerh3tag4">></h3>
-              <a href="https://www.fitmeals.co.in/blog/">Blog</a>
+              <a href="#">Blog</a>
             </div>
             <div className="link3">
               <h3 className="Footerh3tag4">></h3>
-              <a href="https://www.fitmeals.co.in/faq/">FAQ</a>
+              <a href="#">FAQ</a>
             </div>
             <div className="link4">
               <h3 className="Footerh3tag4">></h3>
-              <a href="https://www.fitmeals.co.in/testimonials/">
+              <a href="#">
                 Testimonials
               </a>
             </div>

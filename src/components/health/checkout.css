@@ -46,10 +46,12 @@ body {
   margin: auto;
   margin-top: 120px;
 }
-#inner-container-checkout > div {
+
+#inner-container-checkout>div {
   /* border: 2px solid blue; */
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
+
 .box {
   background-color: #f7f6f7;
   padding: 20px;
@@ -57,13 +59,16 @@ body {
   color: #383d46;
   border-radius: 30px;
 }
+
 a {
   text-decoration: none;
   color: #383d46;
 }
+
 a:hover {
   color: #91c23e;
 }
+
 /* p {
   font-size: 40px;
   font-weight: 900;
@@ -76,8 +81,8 @@ a:hover {
 sup {
   color: red;
 }
+
 #checkout_form {
-  /* display: flex; */
   padding-top: 25px;
   padding-bottom: 25px;
   /* border: 1px solid black; */
@@ -86,9 +91,11 @@ sup {
   border-radius: 50px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 .inner {
   margin-right: 15px;
 }
+
 select {
   padding: 18px;
   border-radius: 30px;
@@ -97,19 +104,26 @@ select {
   /* text-align: center; */
   font-size: 17px;
 }
+
 option {
   font-weight: 200;
   text-align: left;
 }
+
 label {
   font-size: 18px;
   font-weight: bold;
   color: grey;
   /* margin-bottom: 30px; */
 }
-#myForm > div {
+
+#myForm>div {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
   margin-bottom: 30px;
 }
+
 #container1 {
   margin-top: 50px;
   display: flex;
@@ -118,6 +132,7 @@ label {
   justify-content: space-around;
   font-family: "Fira Sans", serif;
 }
+
 .Chkbtn {
   width: 285px;
   height: 57px;
@@ -131,12 +146,13 @@ label {
   color: white;
   margin-top: 30px;
 }
+
 .Chkbtn:hover {
   background-color: #8ec038;
   transition: all 0.5s ease;
 }
 
-#container1 > div {
+#container1>div {
   margin-top: 70px;
   width: 200px;
   justify-content: center;
@@ -147,14 +163,17 @@ label {
   cursor: pointer;
   width: 120px;
 }
+
 #dispicon {
   color: #8ec038;
   cursor: pointer;
   font-size: 12px;
 }
+
 #dispicon1 {
   font-size: 10px;
 }
+
 #dispicon1:hover {
   color: #8ec038;
 }
@@ -167,12 +186,14 @@ label {
   margin-bottom: 40px;
   text-align: left;
 }
+
 #imgtrio {
   width: 150px;
   display: flex;
   justify-content: space-around;
 }
-#imgtrio > i {
+
+#imgtrio>i {
   font-size: 25px;
   color: #8ec038;
 }

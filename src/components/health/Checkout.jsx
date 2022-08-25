@@ -45,13 +45,13 @@ function Checkout() {
       </header>
 
       <div id="inner-container-checkout">
-        <div className="box">
+        {/* <div className="box">
           Returning customer?&nbsp;
           <Link to={"/login"}>Click here to login</Link>
-        </div>
-        <div className="box">
+        </div> */}
+        {/* <div className="box">
           Have a coupon?&nbsp;<a href="">Click here to enter your code</a>
-        </div>
+        </div> */}
         <div>
           <p
             style={{
@@ -59,6 +59,7 @@ function Checkout() {
               fontSize: "40px",
               fontWeight: "900",
               marginBottom: "50px",
+              marginTop: "-50px"
             }}
           >
             Billing Details
@@ -107,96 +108,117 @@ function Checkout() {
               </div>
 
               <div>
-                <label for="">
-                  Country / Region <sup>*</sup>
-                </label>
-                <select
-                  name=""
-                  id=""
-                  style={{ width: "96%", border: "1px solid black" }}
-                >
-                  <option value="India">India</option>
-                </select>
+                <div>
+                  <div>
+                    <label for="">
+                      Country / Region <sup>*</sup>
+                    </label>
+                    <select
+                      name=""
+                      id=""
+                      style={{ width: "96%", border: "1px solid black" }}
+                    >
+                      <option value="India">India</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <div>
+                    <label for="">
+                      Town / City <sup>*</sup>
+                    </label>
+                    <input
+                      type="text"
+                      style={{
+                        borderRadius: "30px",
+                        padding: "18px",
+                        width: "96%",
+                        border: "1px solid black",
+                      }}
+                    />
+                  </div>
+                </div>
               </div>
 
               <div>
-                <label for="">
-                  Town / City <sup>*</sup>
-                </label>
-                <input
-                  type="text"
-                  style={{
-                    borderRadius: "30px",
-                    padding: "18px",
-                    width: "96%",
-                    border: "1px solid black",
-                  }}
-                />
+                <div>
+                  <div>
+                    <label for="">
+                      State <sup>*</sup>
+                    </label>
+                    <select
+                      name=""
+                      id="selectOption"
+                      style={{ width: "96%", border: "1px solid black" }}
+                    >
+                      <option value="Telangana">Telangana</option>
+                      <option value="Tripura">Tripura</option>
+                      <option value="Uttarakhand">Uttarakhand</option>
+                      <option value="Odisha">Odisha</option>
+                      <option value="Rajasthan">Rajasthan</option>
+                      <option value="Nagaland">Nagaland</option>
+                      <option value="Punjab">Punjab</option>
+                      <option value="Manipur">Manipur</option>
+                      <option value="Maharashtra">Maharashtra</option>
+                      <option value="Meghalaya">Meghalaya</option>
+                      <option value="West-bengal">West Bengal</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <div>
+                    <label for="">
+                      PIN <sup>*</sup>
+                    </label>
+                    <input
+                      type="number"
+                      style={{
+                        borderRadius: "30px",
+                        padding: "18px",
+                        width: "96%",
+                        border: "1px solid black",
+                      }}
+                    />
+                  </div>
+                </div>
               </div>
 
               <div>
-                <label for="">
-                  State <sup>*</sup>
-                </label>
-                <select
-                  name=""
-                  id="selectOption"
-                  style={{ width: "96%", border: "1px solid black" }}
-                >
-                  <option value="Telangana">Telangana</option>
-                  <option value="Tripura">Tripura</option>
-                  <option value="Uttarakhand">Uttarakhand</option>
-                  <option value="Odisha">Odisha</option>
-                  <option value="Rajasthan">Rajasthan</option>
-                  <option value="Nagaland">Nagaland</option>
-                  <option value="Punjab">Punjab</option>
-                  <option value="Manipur">Manipur</option>
-                  <option value="Maharashtra">Maharashtra</option>
-                  <option value="Meghalaya">Meghalaya</option>
-                  <option value="West-bengal">West Bengal</option>
-                </select>
-              </div>
-              <div>
-                <label for="">
-                  PIN <sup>*</sup>
-                </label>
-                <input
-                  type="number"
-                  style={{
-                    borderRadius: "30px",
-                    padding: "18px",
-                    width: "96%",
-                    border: "1px solid black",
-                  }}
-                />
-              </div>
-              <div>
-                <label for="">
-                  Phone <sup>*</sup>
-                </label>
-                <input
-                  type="number"
-                  style={{
-                    borderRadius: "30px",
-                    padding: "18px",
-                    width: "96%",
-                    border: "1px solid black",
-                  }}
-                />
-              </div>
-              <div>
-                <label for="">
-                  Email address <sup>*</sup>
-                </label>
-                <input
-                  type="email"
-                  style={{
-                    borderRadius: "30px",
-                    padding: "18px",
-                    width: "96%",
-                    border: "1px solid black",
-                  }}
-                />
+                <div>
+                  <div>
+                    <label for="">
+                      Phone <sup>*</sup>
+                    </label>
+                    <input
+                      type="number"
+                      style={{
+                        borderRadius: "30px",
+                        padding: "18px",
+                        width: "96%",
+                        border: "1px solid black",
+                      }}
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <div>
+                    <label for="">
+                      Email address <sup>*</sup>
+                    </label>
+                    <input
+                      type="email"
+                      style={{
+                        borderRadius: "30px",
+                        padding: "18px",
+                        width: "96%",
+                        border: "1px solid black",
+                      }}
+                    />
+                  </div>
+                </div>
               </div>
 
               <Link to="/registration" style={{ fontSize: "16px" }}>
